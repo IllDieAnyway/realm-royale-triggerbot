@@ -1,51 +1,68 @@
-  <h1 style="color: purple;">Realm Royale Triggerbot</h1>
-  <p>
-      This project is a simple <strong>triggerbot</strong> designed for <strong>Realm Royale</strong>. It detects red colors on the screen within a specified region, simulating a click when the right mouse button is pressed.
-  </p>
+# Realm Royale Triggerbot
 
-  <h2>Features</h2>
-  <ul>
-      <li>Detects enemies by identifying red hues within a defined region.</li>
-      <li>Simulates a mouse click upon detection and right-click press.</li>
-      <li>Small, frameless UI built with <strong>Flet</strong>.</li>
-  </ul>
+This project is a simple **triggerbot** designed for **Realm Royale**. It detects red colors on the screen within a specified region, simulating a click when the right mouse button is pressed.
 
-  <h2>Requirements</h2>
-  <ul>
-      <li>Python 3.8 or higher</li>
-      <li>Libraries: <code>opencv-python</code>, <code>numpy</code>, <code>mss</code>, <code>pyautogui</code>, <code>pynput</code>, <code>flet</code>, <code>pywin32</code></li>
-  </ul>
+## Features
 
-  <h2>Installation</h2>
-  <pre>
-      <code>
-      pip install opencv-python numpy mss pyautogui pynput flet pywin32
-      </code>
-  </pre>
+- Detects enemies by identifying red hues within a defined region.
+- Simulates a mouse click upon detection and right-click press.
+- Small, frameless UI built with **Flet**.
 
-  <h2>How to Use</h2>
-  <ol>
-      <li>Clone this repository or copy the script into your project folder.</li>
-      <li>Ensure all dependencies are installed.</li>
-      <li>Run the script:</li>
-      <pre><code>python triggerbot.py</code></pre>
-      <li>The bot will activate, detecting targets and performing clicks when the right mouse button is pressed.</li>
-  </ol>
+## Requirements
 
-  <h2>Code Explanation</h2>
-  <p>
-      The bot captures the center of the screen and detects red hues using HSV color thresholds.
-      If the target is detected and the right mouse button is pressed, it performs a mouse click.
-  </p>
+- Python 3.8 or higher
+- Libraries:
+  ```
+  opencv-python
+  numpy
+  mss
+  pyautogui
+  pynput
+  flet
+  pywin32
+  ```
 
-  <h2>Disclaimer</h2>
-  <p style="color: red;">
-      This project is for educational purposes only. Use it responsibly and ensure it complies with the terms and conditions of the game.
-  </p>
+## Installation
 
-  <h2>License</h2>
-  <p>This project is licensed under the MIT License. Feel free to use and modify the code as needed.</p>
+Install the required dependencies:
 
-  <h2>Credits</h2>
-  <p>Developed by <strong>LostSouls</strong>.</p>
-  https://t.me/lostsouls_crypto
+```bash
+pip install opencv-python numpy mss pyautogui pynput flet pywin32
+```
+
+## How to Use
+
+1. Clone this repository or copy the script into your project folder.
+2. Ensure all dependencies are installed.
+3. Run the script:
+
+   ```bash
+   python triggerbot.py
+   ```
+
+4. The bot will activate, detecting targets and performing clicks when the right mouse button is pressed.
+
+## Code Explanation
+
+The bot captures the center of the screen and detects red hues using HSV color thresholds. If the target is detected and the right mouse button is pressed, it performs a mouse click.
+
+## Video Demonstration
+
+Watch the demonstration video on YouTube:
+
+[![Watch the video](https://pics.freeicons.io/uploads/icons/png/16741343401556273568-512.png)](https://youtu.be/yahBp6p12mk?si=F_fXHILQEVcFlNXR)
+
+
+## Disclaimer
+
+**This project is for educational purposes only. Use it responsibly and ensure it complies with the terms and conditions of the game.**
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify the code as needed.
+
+## Credits
+
+Developed by **LostSouls**.
+
+[Telegram](https://t.me/lostsouls_crypto)
